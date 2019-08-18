@@ -12,6 +12,7 @@
 		828FE7492308DE6D00B7883B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828FE7472308DE6D00B7883B /* Main.storyboard */; };
 		828FE74B2308DE6F00B7883B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828FE74A2308DE6F00B7883B /* Assets.xcassets */; };
 		828FE74E2308DE6F00B7883B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828FE74C2308DE6F00B7883B /* LaunchScreen.storyboard */; };
+		828FE7562309936600B7883B /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FE7552309936600B7883B /* ScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		828FE74A2308DE6F00B7883B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		828FE74D2308DE6F00B7883B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		828FE74F2308DE6F00B7883B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		828FE7552309936600B7883B /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				828FE7432308DE6D00B7883B /* AppDelegate.swift */,
 				828FE7452308DE6D00B7883B /* ViewController.swift */,
 				828FE7472308DE6D00B7883B /* Main.storyboard */,
+				828FE7552309936600B7883B /* ScoreViewController.swift */,
 				828FE74A2308DE6F00B7883B /* Assets.xcassets */,
 				828FE74C2308DE6F00B7883B /* LaunchScreen.storyboard */,
 				828FE74F2308DE6F00B7883B /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				828FE7462308DE6D00B7883B /* ViewController.swift in Sources */,
 				828FE7442308DE6D00B7883B /* AppDelegate.swift in Sources */,
+				828FE7562309936600B7883B /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
