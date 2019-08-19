@@ -128,7 +128,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" borderStyle="roundedRect" textAlignment="center" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="3Sx-zC-68L">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="3Sx-zC-68L">
                                 <rect key="frame" x="275" y="252" width="109.5" height="73"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="3Sx-zC-68L" secondAttribute="height" multiplier="3:2" id="FkO-JZ-a5F"/>
@@ -137,7 +137,7 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="57"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" borderStyle="roundedRect" textAlignment="center" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="4gr-oW-JXL">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="4gr-oW-JXL">
                                 <rect key="frame" x="33" y="252" width="109.5" height="73"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="4gr-oW-JXL" secondAttribute="height" multiplier="3:2" id="U90-84-380"/>
@@ -176,6 +176,9 @@
                                 <state key="normal" title="+1">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="addScore:" destination="6x3-C0-kqX" eventType="touchUpInside" id="X7c-fP-FDj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ksb-uc-nho">
                                 <rect key="frame" x="83" y="490" width="39" height="48"/>
@@ -184,6 +187,9 @@
                                 <state key="normal" title="+2">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="addScore:" destination="6x3-C0-kqX" eventType="touchUpInside" id="HYv-lq-bfc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EC7-tQ-RYx">
                                 <rect key="frame" x="138" y="491" width="40" height="48"/>
@@ -192,6 +198,9 @@
                                 <state key="normal" title="+3">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="addScore:" destination="6x3-C0-kqX" eventType="touchUpInside" id="6bf-M5-AZJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xkZ-w0-RSV">
                                 <rect key="frame" x="236" y="488" width="34" height="48"/>
@@ -200,6 +209,9 @@
                                 <state key="normal" title="+1">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="addScore:" destination="6x3-C0-kqX" eventType="touchUpInside" id="hiZ-fq-gJJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVc-8w-I3x">
                                 <rect key="frame" x="341" y="489" width="40" height="48"/>
@@ -208,6 +220,9 @@
                                 <state key="normal" title="+3">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="addScore:" destination="6x3-C0-kqX" eventType="touchUpInside" id="bRf-2a-yyO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="By1-ar-rVT">
                                 <rect key="frame" x="286" y="488" width="39" height="48"/>
@@ -216,6 +231,9 @@
                                 <state key="normal" title="+2">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="addScore:" destination="6x3-C0-kqX" eventType="touchUpInside" id="pgg-M5-xTn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="urV-l3-xn1">
                                 <rect key="frame" x="60" y="580" width="294" height="46"/>
@@ -224,6 +242,9 @@
                                 <state key="normal" title="Terminar Partida">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="registerMatch:" destination="6x3-C0-kqX" eventType="touchUpInside" id="sqJ-8f-uvo"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UH5-PZ-IRm">
                                 <rect key="frame" x="38" y="672" width="338" height="170"/>
@@ -274,8 +295,17 @@
                         <viewLayoutGuide key="safeArea" id="dME-9D-JPS"/>
                     </view>
                     <connections>
+                        <outlet property="btnOneTime1" destination="e9r-Kn-ugp" id="Td6-di-Hq3"/>
+                        <outlet property="btnOneTime2" destination="xkZ-w0-RSV" id="cKC-h6-EG8"/>
+                        <outlet property="btnThreeTime1" destination="EC7-tQ-RYx" id="fuY-02-1Ov"/>
+                        <outlet property="btnThreeTime2" destination="yVc-8w-I3x" id="YIj-Hr-MSh"/>
+                        <outlet property="btnTwoTime1" destination="ksb-uc-nho" id="APC-M5-PdU"/>
+                        <outlet property="btnTwoTime2" destination="By1-ar-rVT" id="sz4-zz-UK2"/>
                         <outlet property="lbTime1" destination="ka7-nA-eKD" id="743-P6-Hw6"/>
                         <outlet property="lbTime2" destination="zJ1-l3-a8B" id="Vwd-HA-Qnq"/>
+                        <outlet property="tfScoreTeam1" destination="4gr-oW-JXL" id="0Fs-SU-T1l"/>
+                        <outlet property="tfScoreTeam2" destination="3Sx-zC-68L" id="lF8-oT-VCR"/>
+                        <outlet property="tvMatches" destination="UH5-PZ-IRm" id="L2b-KY-eya"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iza-dQ-txu" userLabel="First Responder" sceneMemberID="firstResponder"/>
